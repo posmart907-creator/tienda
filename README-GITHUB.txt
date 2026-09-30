@@ -1,19 +1,16 @@
-POSMART HOMECENTER — TIENDA VIRTUAL
+# POSMART HOMECENTER — GitHub Pages
 
-ARCHIVOS
-- index.html: página de la tienda, diseño adaptable a celular y computadora.
-- products.json: catálogo, precios, categorías, promociones y sucursales.
+Esta carpeta contiene la versión renovada de la tienda virtual.
 
-PUBLICAR EN GITHUB PAGES
-1. Crea un repositorio en GitHub.
-2. Sube index.html y products.json a la raíz del repositorio (misma carpeta).
-3. Entra a Settings > Pages.
-4. En Build and deployment, elige Deploy from a branch.
-5. Selecciona la rama main y la carpeta /(root), y guarda.
-6. Espera a que GitHub Pages publique el sitio y abre la URL que te muestre.
+## Archivos
+- `index.html` — tienda, buscador, categorías, carrito y pedido por WhatsApp.
+- `products.json` — catálogo original de POSMART, conservado sin cambiar precios ni productos.
 
-IMPORTANTE
-- Mantén index.html y products.json juntos en la misma carpeta; la tienda carga el catálogo desde products.json.
-- Los precios del catálogo se conservaron tal como estaban en el archivo original.
-- Los pedidos se envían al WhatsApp configurado en products.json (51933482945) e incluyen las sucursales y sus enlaces de mapas.
-- El panel de administración permite descargar un products.json actualizado; para publicar los cambios, reemplaza el archivo del repositorio y vuelve a subirlo.
+## Publicación en GitHub Pages
+1. Sube/reemplaza `index.html` y `products.json` en la raíz de la rama `main`.
+2. En GitHub: Settings → Pages.
+3. En Build and deployment selecciona **Deploy from a branch**.
+4. Branch: **main**. Folder: **/ (root)**.
+5. Guarda y espera a que GitHub Pages publique el sitio.
+
+No se necesitan `logo.png` ni `banner-fachada.jpg`: la nueva versión no depende de esos archivos.

@@ -2,7 +2,7 @@
   "settings": {
     "storeName": "POSMART Homecenter",
     "logoEmoji": "🔧",
-    "logoImage": "",
+    "logoImage": "./logo.png",
     "whatsapp": "51933482945",
     "currency": "S/",
     "bannerSlides": [
