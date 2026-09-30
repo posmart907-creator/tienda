@@ -1,16 +1,12 @@
-# POSMART HOMECENTER — GitHub Pages
+# POSMART HOMECENTER V3
 
-Esta carpeta contiene la versión renovada de la tienda virtual.
+Versión de catálogo profesional:
+- Naranja como color principal.
+- Carrusel de banners.
+- Franja superior editable.
+- Catálogo con marca, precio y Disponible/Sin stock.
+- Ofertas.
+- Carrito y WhatsApp.
+- Panel administrativo.
 
-## Archivos
-- `index.html` — tienda, buscador, categorías, carrito y pedido por WhatsApp.
-- `products.json` — catálogo original de POSMART, conservado sin cambiar precios ni productos.
-
-## Publicación en GitHub Pages
-1. Sube/reemplaza `index.html` y `products.json` en la raíz de la rama `main`.
-2. En GitHub: Settings → Pages.
-3. En Build and deployment selecciona **Deploy from a branch**.
-4. Branch: **main**. Folder: **/ (root)**.
-5. Guarda y espera a que GitHub Pages publique el sitio.
-
-No se necesitan `logo.png` ni `banner-fachada.jpg`: la nueva versión no depende de esos archivos.
+Importante: el panel de esta versión guarda cambios en el navegador mediante localStorage. Para que los cambios del administrador sean visibles desde cualquier dispositivo y queden guardados en un servidor, hay que conectarlo a una base de datos/backend.
